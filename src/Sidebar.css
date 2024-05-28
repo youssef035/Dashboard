@@ -1,0 +1,50 @@
+.sidebar {
+  background-color: #4caf50; /* Adjust color to match your design */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position:static;
+  min-height: 100vh;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin to separate logo from buttons */
+}
+
+.logo img {
+  width: 100px;
+  margin-bottom: 10px; /* Add space between image and text */
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  color: #4caf50;
+  padding: 15px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 100%; /* Make button take full width of its container */
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px; /* Add border radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #ddd; /* Change background color on hover */
+}
+
+button:focus {
+  outline: none; /* Remove default outline */
+}
+
+.sidebar a {
+  width: 100%; /* Ensure the link takes full width */
+  text-decoration: none; /* Remove default link styling */
+}
